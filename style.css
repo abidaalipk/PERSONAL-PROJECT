@@ -1,0 +1,166 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdffff;
+}
+
+.navbar{
+    height: 70px;
+    background-color:#fff;
+    box-shadow: 2px 3px 7px 2px #f0f0ff;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo{
+    display: flex;
+    color: #000;
+    text-transform: uppercase;
+    margin-left: 2rem;
+    gap: 0.5rem;
+    
+
+}
+
+.logo i{
+    font-size: 2rem;
+   
+}
+
+.logo h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.logo p{
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+.baby{
+    margin-left: 7rem;
+}
+.baby span{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 1.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.baby span i{
+    color: #444;
+    margin-left: 0.5rem;
+}
+.icon{
+    font-size: 1.5rem;
+    color: #444;
+    margin-left: 20rem;
+}
+
+.icon i{
+    margin-left: 1rem;
+}
+
+section{
+    height: 40vw;
+    width: 100vw;
+    margin-top: 4rem;
+    display: flex;
+   justify-content: center;
+}
+.img{
+    width: 45%;
+    margin: 2rem;
+}
+
+.img img{
+    display: block;
+    width: 100%;
+    
+}
+
+.mini{
+    width: 45%;
+    margin: 2rem;
+}
+
+.mini h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.mini span{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #444;
+}
+
+.mini p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 7rem;
+}
+
+.protecion{
+    display: flex;
+}
+
+.protecion p{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 0.2rem;
+    margin-bottom: 0;
+}
+
+.protecion span{
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-right: 0.2rem;
+    color: rgb(3, 3, 120);
+}
+
+.protecion a{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: red;
+}
+
+.boxes{
+   display: flex;
+   justify-content: space-between;
+}
+
+.box{
+    border: 2px solid gray;
+    width: 33%;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #444;
+    border-radius: 5px;
+    margin-right: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    display: block;
+    margin-top: 2rem;
+    width: 400px;
+    height: 4rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border-radius: 3px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
